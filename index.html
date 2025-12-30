@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS (for scroll animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="navbar header">
+    <div class="header-content">
+      <h1>MY COFFEE</h1>
+      <nav>
+        <a href="#hero">Home</a>
+        <a href="#story-split">Story</a>
+        <a href="#offer">Offer</a>
+        <a href="#why">Why Us</a>
+      </nav>
+    </div>
+  </header>
+
+  
+
+  <!-- ================= HERO ================= -->
+  <section id="hero" class="hero reveal">
+    <div class="hero-content reveal-left">
+      <h1 id="heroTitle">Wake Up to the Perfect Brew</h1>
+      <p id="heroText">
+        Discover our freshly roasted coffee, crafted with passion and care.
+        From bold espressos to creamy lattes, every cup is a journey of flavor.
+      </p>
+      <a href="#menu" class="shop-btn">Explore Our Menu</a>
+
+      <div class="controls">
+        <button id="prevBtn">⟵ Previous</button>
+        <button id="nextBtn">Next ⟶</button>
+      </div>
+    </div>
+    <div class="hero-image reveal-right">
+      <img src="./Images/herocup.png" class="hero-slide active" alt="Coffee 1">
+      <img src="./Images/coo2.png" class="hero-slide" alt="Coffee 2">
+      <img src="./Images/cccc3-removebg-preview.png" class="hero-slide" alt="Coffee 3">
+    </div>
+  </section>
+
+  <!-- ================= OUR STORY ================= -->
+  <section id="story-split">
+    <div class="story-wrapper">
+      <div class="story-image reveal-left">
+        <img src="Images/bgcoffee.png" alt="Coffee Cup">
+      </div>
+      <div class="story-text reveal-right">
+        <h2>OUR STORY</h2>
+        <div class="story-line"></div>
+        <p>
+          What started as a small coffee corner has grown into a
+          passion-driven journey. Every bean is carefully selected,
+          slow-roasted, and brewed with love to deliver a rich coffee
+          experience.
+        </p>
+        <a href="#" class="story-btn">SEE FULL STORY</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OUR OFFER ================= -->
+  <section id="offer">
+    <div class="offer-container">
+      <h2 class="offer-title reveal">OUR OFFER</h2>
+      <div class="offer-divider"></div>
+      <div class="offer-grid">
+        <div class="offer-box reveal-zoom">
+          <img src="Images/offer-1.png" alt="Original Coffee">
+          <h3>Original Coffee</h3>
+          <p>
+            Crafted from handpicked beans and slow roasted
+            to deliver a rich, bold, and authentic coffee taste
+            in every cup.
+          </p>
+        </div>
+        <div class="offer-box reveal-zoom">
+          <img src="Images/offer-2.png" alt="Coffee Flavors">
+          <h3>20+ Coffee Flavors</h3>
+          <p>
+            Explore a wide range of flavors — from classic espresso
+            to creamy blends, brewed to suit every coffee lover.
+          </p>
+        </div>
+        <div class="offer-box reveal-zoom">
+          <img src="Images/offer-3.png" alt="Coffee Ambience">
+          <h3>Pleasant Ambience</h3>
+          <p>
+            A warm and cozy space designed for comfort,
+            creativity, and meaningful coffee moments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY US ================= -->
+  <section id="why">
+    <div class="section-title">
+      <span>WHY OUR COFFEE</span>
+      <h2 class="reveal">Crafted For True Coffee Lovers</h2>
+    </div>
+    <div class="features">
+      <div class="feature-box reveal">
+        <i class="fas fa-coffee"></i>
+        <p>Premium Quality Beans</p>
+      </div>
+      <div class="feature-box reveal">
+        <i class="fas fa-fire"></i>
+        <p>Fresh Daily Roasting</p>
+      </div>
+      <div class="feature-box reveal">
+        <i class="fas fa-smile"></i>
+        <p>Rich Aroma & Taste</p>
+      </div>
+      <div class="feature-box reveal">
+        <i class="fas fa-bolt"></i>
+        <p>Perfect Energy Boost</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COFFEE MENU ================= -->
+  <section id="menu">
+    <div class="menu-container">
+      <div class="menu-title reveal">
+        <span>SPECIAL MENU</span>
+        <h2>Our Coffee Menu</h2>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <img src="Images/coo1.png" alt="Cappuccino">
+          <div class="menu-text">
+            <h3>Cappuccino <span>₹260</span></h3>
+            <p>Rich espresso with steamed milk foam.</p>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="Images/coo2.png" alt="Latte">
+          <div class="menu-text">
+            <h3>Caffe Latte <span>₹220</span></h3>
+            <p>Smooth blend of espresso & milk.</p>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="Images/coo3.png" alt="Macchiato">
+          <div class="menu-text">
+            <h3>Macchiato <span>₹320</span></h3>
+            <p>Strong espresso with milk touch.</p>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="Images/coffee-cup-3d.png" alt="Americano">
+          <div class="menu-text">
+            <h3>Americano <span>₹420</span></h3>
+            <p>Classic black coffee taste.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ZIG ZAG COFFEE ================= -->
+  <section id="zigzag">
+    <div class="zigzag-row">
+      <div class="zigzag-text reveal-left">
+        <span>OUR PROCESS</span>
+        <h2>Freshly Brewed Every Morning</h2>
+        <p>
+          We believe great coffee starts with passion.
+          Our beans are freshly roasted every day to
+          deliver bold flavor, rich aroma, and a smooth finish.
+        </p>
+      </div>
+      <div class="zigzag-media reveal-right">
+        <video autoplay muted loop playsinline>
+          <source src="Images/v2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="zigzag-row reverse">
+      <div class="zigzag-text reveal-left">
+        <span>OUR SPACE</span>
+        <h2>A Place Made for Coffee Lovers</h2>
+        <p>
+          A warm ambience crafted for conversations,
+          creativity, and calm moments — where
+          every sip feels special.
+        </p>
+      </div>
+      <div class="zigzag-media reveal-right">
+        <video autoplay muted loop playsinline>
+          <source src="Images/v4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="zigzag-row">
+      <div class="zigzag-text reveal-left">
+        <span>COFFEE MOMENTS</span>
+        <h2>A Space to Relax</h2>
+        <p>
+          Enjoy your coffee in a warm, cozy ambience designed
+          for comfort, conversations, and meaningful moments.
+        </p>
+      </div>
+      <div class="zigzag-media reveal-right">
+        <video autoplay muted loop playsinline>
+          <source src="Images/v3.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="zigzag-row reverse">
+      <div class="zigzag-text reveal-left">
+        <span>SIGNATURE BLENDS</span>
+        <h2>Unique Flavors, Timeless Taste</h2>
+        <p>
+          Our signature blends are crafted for true coffee lovers,
+          combining rich textures, smooth finishes, and unforgettable
+          flavor profiles.
+        </p>
+      </div>
+      <div class="zigzag-media reveal-right">
+        <video autoplay muted loop playsinline>
+          <source src="Images/v1.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REVIEWS ================= -->
+  <section class="reviews">
+    <h2 class="section-title reveal">Customer Reviews</h2>
+    <div class="review-box fade-up">
+      <div class="review-card reveal">
+        <p>"The blue glow finishing is just perfect. Looks luxurious."</p>
+        <h4>— Manav Singh</h4>
+      </div>
+      <div class="review-card reveal">
+        <p>"Brilliant quality and extremely premium feel!"</p>
+        <h4>— Sana Kapoor</h4>
+      </div>
+      <div class="review-card reveal">
+        <p>"Their royal blue edition watches are stunning."</p>
+        <h4>— Aditya Verma</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact reveal">
+    <h2>Contact Us</h2>
+    <p>📞 (123) 456-7890</p>
+    <p>✉️ info@coffeeprojects.com</p>
+    <p>📍 123 Coffee Lane, City, State</p>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    © 2025 All rights reserved. Manish Yadav
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    AOS.init({ once: true });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
